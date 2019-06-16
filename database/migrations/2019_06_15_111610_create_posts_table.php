@@ -18,9 +18,9 @@ class CreatePostsTable extends Migration
             $table->string('filename');
             $table->string('filepath');
             $table->string('uploaded_by');
-            $table->string('title')->nullable();;
-            $table->string('description')->nullable();;  
-            $table->string('category')->nullable();;
+            $table->string('title')->nullable();
+            $table->string('description')->nullable();  
+            $table->string('category')->nullable();
             $table->timestamps();
         });
     }
